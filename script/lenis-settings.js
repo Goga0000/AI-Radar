@@ -1,1 +1,1 @@
-
+const lenis=new Lenis({lerp:.05,wheelMultiplier:1});function raf(e){lenis.raf(e),requestAnimationFrame(raf)}requestAnimationFrame(raf),document.querySelectorAll("[data-lenis-start]").forEach(e=>{e.addEventListener("click",()=>{lenis.start()})}),document.querySelectorAll("[data-lenis-stop]").forEach(e=>{e.addEventListener("click",()=>{lenis.stop()})}),document.querySelectorAll("[data-lenis-toggle]").forEach(e=>{e.addEventListener("click",function(){this.classList.toggle("stop-scroll"),this.classList.contains("stop-scroll")?lenis.stop():lenis.start()})});

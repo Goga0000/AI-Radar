@@ -8,3 +8,16 @@
 .content_offer-item_rich p {
   font-weight: 500;
 }
+@keyframes radar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.content_agents-radar {
+  animation: radar 30s linear infinite;
+  will-change: transform;
+}

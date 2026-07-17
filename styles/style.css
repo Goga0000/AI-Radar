@@ -1,3 +1,10 @@
 .header_top.close {
   max-height: 0px;
 }
+.content_offer-item_rich strong {
+  color: var(--_color---accent);
+  font-weight: 500;
+}
+.content_offer-item_rich p {
+  font-weight: 500;
+}

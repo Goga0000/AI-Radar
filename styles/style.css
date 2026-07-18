@@ -21,3 +21,11 @@
   animation: radar 30s linear infinite;
   will-change: transform;
 }
+@media screen and (max-width: 1100px)  amd (min-width: 768px) {
+  .content_tools-list {
+    width: auto !important;
+  } 
+  .content_tools-item {
+    width: 14.25rem !important;
+  }  
+}  

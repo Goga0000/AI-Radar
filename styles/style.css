@@ -29,6 +29,6 @@
     width: 14.25rem !important;
   }  
 }
-.[data-header="back"].active {
+[data-header="back"].active {
   opacity: 1;
 }

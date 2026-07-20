@@ -28,4 +28,7 @@
   .content_tools-item {
     width: 14.25rem !important;
   }  
-}  
+}
+.[data-header="back"].active {
+  opacity: 1;
+}

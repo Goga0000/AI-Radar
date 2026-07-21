@@ -29,6 +29,22 @@
     width: 14.25rem !important;
   }  
 }
+.modal_back {
+  transition: 0.32s ease-out all;
+}  
+.modal_content {
+ transition: 0.4s ease-out all 0.25s;
+}  
 [data-header="back"].active {
   opacity: 1;
+}
+[data-modal].active {
+  pointer-events: auto;
+}
+[data-modal].active .modal_back {
+  opacity: 1;
+}
+[data-modal].active .modal_content {
+  opacity: 1;
+  transform: translateY(0%)
 }

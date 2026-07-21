@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded",()=>{new Swiper(".swiper",{slidesPerView:"auto",spaceBetween:0,freeMode:{enabled:!0,momentum:!0,sticky:!1}})});
+document.addEventListener("DOMContentLoaded",()=>{new Swiper(".swiper",{slidesPerView:"auto",spaceBetween:0,freeMode:{enabled:!0,momentum:!0,sticky:!1},breakpoints:{0:{slidesOffsetBefore:20,slidesOffsetAfter:20},768:{slidesOffsetBefore:0,slidesOffsetAfter:0}}})});

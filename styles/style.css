@@ -48,17 +48,17 @@
   opacity: 1;
   transform: translateY(0%)
 }
-.u-fieldset_error {
+[data-filedset=error] {
   transition: 0.35s ease-out all;
 } 
-.u-fieldset_error.error {
+[data-filedset=error].error {
   max-height: 400px;
 }
-.u-input.error {
+[data-input=email].error {
   border-color: #E04300 !important;
   background-color: rgba(224, 67, 0, 0.12);
 }  
-.u-bttn.is-form.valid {
+[data-form=button].valid {
   pointer-events: auto;
   background-color: var(--_color---dark);
 }  

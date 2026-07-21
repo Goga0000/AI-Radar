@@ -48,3 +48,17 @@
   opacity: 1;
   transform: translateY(0%)
 }
+.u-filedset_error {
+  transition: 0.35s ease-out all;
+} 
+.u-filedset_error.error {
+  max-height: 400px;
+}
+.u-input.error {
+  border-color: #E04300 !important;
+  background-color: rgba(224, 67, 0, 0.12);
+}  
+.u-bttn.is-form.valid {
+  pointer-events: auto;
+  background-color: var(--_color---dar);
+}  
